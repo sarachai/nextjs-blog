@@ -1,10 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-const remarkLib = require('remark')
-const { remark } = remarkLib;
-const remarkHtmlLib = require('remark-html');
-const { html } = remarkHtmlLib;
+import { remark } from 'remark'
+import html from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
